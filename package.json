@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"  
+  "license": "ISC",
+  "dependencies": {
+    "@kyanny-corp-enterprise-cloud-testing/scaling-giggle": "1.0.0"
+  }
 }
