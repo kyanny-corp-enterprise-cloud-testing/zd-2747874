@@ -14,9 +14,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions: 
-      contents: read
-      packages: read
+    # It doesn't matter because packages:read is default permission for GITHUB_TOKEN
+    # permissions: 
+    #   contents: read
+    #   packages: read
     
     steps:
     - uses: actions/checkout@v4
